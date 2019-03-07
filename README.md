@@ -1,3 +1,3 @@
-# neonMoon is a weather application...
-## able to fetch the weather information, currently from free API
-$$$ LIVE DEMO https://neonmoon.herokuapp.com/
+neonMoon is a weather application...
+able to fetch the weather information, currently from free API
+# LIVE DEMO https://neonmoon.herokuapp.com/
