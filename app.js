@@ -1,4 +1,3 @@
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
@@ -37,7 +36,7 @@ app.post('/', function (req, res) {
   });
 })
 
-let port = process.env.PORT || 5000;
-app.listen(port, function () {
-  console.log(`app listening on port ${port}!`)
+let port1 = process.env.PORT || 3000;
+app.listen(port1, function () {
+  console.log(`app listening on port ${port1}!`)
 })
