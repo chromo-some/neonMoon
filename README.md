@@ -1,1 +1,2 @@
-# neonMoon
+# neonMoon is a weather application...
+## able to fetch the weather information, currently from free API
