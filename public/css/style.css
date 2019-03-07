@@ -1,0 +1,119 @@
+body {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main{
+    background: rgba(0, 151, 19, 0.3);
+    border: double 5px yellow;    
+    border-radius: 10px;
+    margin-top: 75px; 
+
+  }
+  img{
+    border: double 5px rgb(158, 231, 22);
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  } 
+  .main-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(213, 235, 21);
+    margin: 0px;
+    padding: 0px;
+  }
+  .main-heading-two{
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  fieldset {
+    display: inline-block;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+    border: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    min-width: -webkit-min-content;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+  }
+  .ghost-input, p {
+    display: table;
+    font-weight:300;
+    width: 100%;
+    font-size: 25px;
+    border:0px;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4b545f;
+    background: #fff;
+    font-family: Open Sans,Verdana;
+    padding: 10px 15px;
+    margin: 30px 0px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .ghost-input:focus {
+    border-bottom:1px solid #ddd;
+  }
+  .ghost-button {
+    background-color: transparent;
+    border:2px solid #ddd;
+    text-align: center;
+    padding:10px 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    min-width: 60%;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .ghost-button:hover {
+    border-color: rgb(99, 231, 10);
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    
+  }
+  p {
+    color: #E64A19;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border: solid black;
+    text-transform: uppercase;
+    background: yellow;
+
+  }

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>neon moon</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="main">
+        <img src="./neon_moon.jpg" alt="neon moon" width="200px" height="150px">
+
+    <div class="main-heading">
+      <h1 class="main-heading-one">neon moon</h1>
+      <h2 class="main-heading-two">we can't change the future, but we could plan</h1>
+    </div>
+
+    <div class="container">
+      <fieldset>
+        <form action="/" method="post">
+          <input name="area" type="text" class="ghost-input" placeholder="Enter a City" required>
+          <input type="submit" class="ghost-button" value="Get Weather">
+        </form>
+        <% if(weather !== null){ %>
+          <p><%= weather %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+
+        <% if(arg !== null){ %>
+          <p><%= arg %></p>
+        <% } %>
+      </fieldset>
+    </div>
+  </div>
+    
+  </body>
+</html>
