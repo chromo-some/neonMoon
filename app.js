@@ -4,6 +4,7 @@ const request = require('request');
 const app = express()
 let port = process
 
+//don't bother copying its completly free at open weather API.
 const apiKey = '90a9239076898a3eb4b312fe42227774';
 
 app.use(express.static('public'));
